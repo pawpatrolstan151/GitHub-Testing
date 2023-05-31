@@ -9,13 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("🇸🇬")
-            Text("🥔")
-            Text("Hello, potato!")
-            
+        ZStack {
+            Color.brown
+            VStack {
+                
+                Text("🥔")
+                Text("Hello, potato!")
+                
+            }
+            .font(.largeTitle)
         }
-        .font(.largeTitle)
     }
 }
 
