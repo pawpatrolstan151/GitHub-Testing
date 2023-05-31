@@ -13,6 +13,7 @@ struct ContentView: View {
             Color.brown
             VStack {
                 
+                Text("🇸🇬")
                 Text("🥔")
                 Text("Hello, potato!")
                 
